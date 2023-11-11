@@ -6,6 +6,8 @@
 
 ## Datasets
 ### Available Datasets
+- [MIMIC-III Waveform](https://archive.physionet.org/physiobank/database/mimic3wdb/)
+- [Mindray Dataset]()
 
 ## Implementation Code
 ### Requirmenets:
@@ -27,10 +29,15 @@
 
 ### Existing Algorithms
 - [DiffCNBP]()
-- [Pulse2Pulse]()
-- [Pix2Pix]()
-- [V-Net]()
-- [NARX]()
+- [Pulse2Pulse](https://pubmed.ncbi.nlm.nih.gov/34753975/)
+- [WaveGAN*](https://pubmed.ncbi.nlm.nih.gov/34753975/)
+- [DCGAN](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+- [WGAN](https://github.com/Yangyangii/GAN-Tutorial)
+- [WGAN-GP](https://github.com/mcclow12/wgan-gp-pytorch)
+- [Pix2Pix](https://arxiv.org/abs/1611.07004)
+- [V-Net](https://www.nature.com/articles/s41598-021-94913-y)
+- [U-Net](https://github.com/inventec-ai-center/bp-benchmark/tree/main)
+- [NARX](https://ieeexplore.ieee.org/document/9336230)
 
 ### Adding New Algorithm
 To add a new algorithm, place it in `algorithms/algorithms.py` file.
@@ -59,3 +66,8 @@ Department of Biomedical Engineering, Beihang University,
 
 ## Acknowledgement
 We would like to thank the following repositories for their valuable contributions to this work:
+- [Pulse2Pulse](https://github.com/vlbthambawita/Pulse2Pulse)
+- [WaveGAN*](https://github.com/mazzzystar/WaveGAN-pytorch)
+- [DCGAN](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+- [WGAN](https://github.com/Yangyangii/GAN-Tutorial)
+- [WGAN-GP](https://github.com/mcclow12/wgan-gp-pytorch)
